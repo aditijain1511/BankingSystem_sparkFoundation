@@ -1,12 +1,18 @@
 # BankingSystem_sparkFoundation
 
-The Sparks Foundation 
-Internship Project : Basic Banking System 💻
-A Web Application used to transfer money between multiple users (Project contains 10 dummy users). A dummy user can also be created. 👩👨
+<h1><hr>The Sparks Foundation </h1><br>
+<b>Internship Project : Basic Banking System 💻<br></b>
+Create a simple dynamic website which has the following specs.<br><br>
+
+Start with creating a dummy data in database for upto 10 customers.Customers table will have basic fields such as name, email, current balance etc. Transfers table will record all transfers happened.<br><br>
 
 
-User table have basic fields such as name, email & current balance.
-Transaction table records all transfers happened along with their time.
-Flow of the Website: Home Page > View all Users > Select and View one User > Transfer Money > Select reciever > View all Users > View Transfer History.
+Flow: Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers.<br><br>
 
-Website link:- https://bank-of-spark.herokuapp.com/index.html
+No Login Page. No User Creation. Only transfer of money between multiple users.<br><br>
+
+Host the website at 000webhost. github.io, heroku app or any other free hosting provider. Check in code in gitlab.
+<br><br>
+
+Website link:- https://bank-of-spark.herokuapp.com/index.html<br>
+GitHub Link:- https://github.com/aditijain1511/BankingSystem_sparkFoundation
