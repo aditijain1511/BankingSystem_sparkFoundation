@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+body {
+  font-family: "Roboto", sans-serif;
+  background-color:  rgb(255, 255, 255);
+}
+
+/* navbar css starts here  */
+.navbar{
+  background-image: linear-gradient(
+    120deg,
+    hsl(0, 66%, 77%),
+    hsl(236, 91%, 9%)
+  );
+ 
+}
+
+.navbar h1{
+  font-family: 'Moo Lah Lah', cursive;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  color: #110b47 !important;
+  
+  
+}
+
+.navbar img{
+        width: 50px;
+        height: 70px;
+        margin-left: 60px;
+        margin-top: 10px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d2691e;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  margin-top: 40px;
+}
+.hero-img-container {
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.hero-img-container > img {
+  width: 500px;
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hero-text-container > h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: hsl(233, 26%, 24%);
+  line-height: 1.1;
+}
+.hero-text-container > p {
+  color: hsl(240, 43%, 99%);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.hero-text-container > button {
+  padding: 12px 28px;
+  border: none;
+  outline-width: 0;
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 400;
+  background-image: linear-gradient(
+    120deg,
+    hsl(0, 85%, 55%),
+    hsl(236, 97%, 25%)
+  );
+}
+.container {
+  background-color: hsl(220, 16%, 96%);
+}
+
+.heading{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #349751;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.heading h2 {
+  
+  font-weight: 900;
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  
+}
+.heading a {
+  width: 50px;
+  height: 70px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.heading ul {
+  display: flex;
+  position: relative;
+}
+
+.heading ul li {
+  list-style: none;
+}
+
+.heading ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 600;
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.content {
+  text-align: center;
+  margin: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.content .text-content1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.content .text-content2 {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.content .text-content3 {
+  font-size: 20px;
+  line-height: 47px;
+}
+
+.main_img img {
+  border-radius: 100px;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.cust {
+  display: flex;
+  position: absolute;
+  top: 750px;
+  right: 200px;
+  justify-content: space-between;
+  padding: 2px;
+}
+.img_view img {
+  width: 400px;
+  height: 400px;
+}
+
+.img_tran img {
+  width: 400px;
+  height: 400px;
+}
+.img_his img {
+  width: 400px;
+  height: 300x;
+}
+.img_view p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bolder;
+}
+.img_tran p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bolder;
+}
+.img_his p {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.img_view :hover {
+  cursor: pointer;
+  width: 500px;
+  height: 500px;
+}
+
+.img_tran :hover {
+  cursor: pointer;
+  width: 500px;
+  height: 500px;
+}
+
+.img_his :hover {
+  cursor: pointer;
+  width: 500px;
+  height: 500px;
+}
+footer {
+  position: relative;
+  top: 600px;
+  display: flex;
+  
+}
+.foot {
+  display: flex;
+  width: 100%;
+  padding: 1vh;
+  justify-content: right;
+  background-color:  khaki;
+}
+.foot img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 1vh;
+}
+.foot p {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bolder;
+  padding: 1vh;
+}
+.foot h5 {
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: bolder;
+  padding: 1vh;
+  margin-right: 1000px;
+}
