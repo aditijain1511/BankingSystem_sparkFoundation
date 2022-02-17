@@ -1,7 +1,6 @@
-# BankingSystem_sparkFoundation
 
 <h1><hr>The Sparks Foundation </h1><br>
-<b>Internship Project : Basic Banking System 💻<br></b>
+<b><hr>Internship Project : Basic Banking System 💻<br></b>
 Create a simple dynamic website which has the following specs.<br><br>
 
 Start with creating a dummy data in database for upto 10 customers.Customers table will have basic fields such as name, email, current balance etc. Transfers table will record all transfers happened.<br><br>
