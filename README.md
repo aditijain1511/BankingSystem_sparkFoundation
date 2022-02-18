@@ -16,4 +16,4 @@ Host the website at 000webhost. github.io, heroku app or any other free hosting 
 Website link:- https://bank-of-spark.herokuapp.com/index.html<br>
 GitHub Link:- https://github.com/aditijain1511/BankingSystem_sparkFoundation<br>
 You Tube Link:- https://www.youtube.com/watch?v=XmOvLismqHE<br>
-Linkedin Link:- 
+Linkedin Link:- https://www.linkedin.com/in/aditi-jain-a1a793214<br>
